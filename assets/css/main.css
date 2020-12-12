@@ -1673,7 +1673,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #16132b url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -2273,7 +2273,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
+		background: #13151d url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -2341,7 +2341,7 @@ input, select, textarea {
 
 		#footer .title {
 			background: #282b34 url("images/overlay.png");
-			color: #eee;
+			color: rgb(255, 255, 255);
 		}
 
 		#footer header.style1 {
@@ -2804,7 +2804,7 @@ input, select, textarea {
 			.button {
 				display: block;
 				width: 100%;
-				font-size: 1em;
+				font-size: 1,5em;
 				max-width: 30em;
 				margin: 0 auto;
 			}
