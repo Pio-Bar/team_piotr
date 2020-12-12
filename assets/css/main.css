@@ -21,8 +21,9 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font-size: 110%;
+	/* font: inherit; */
+	font-family: 'Lato', sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -98,7 +99,7 @@ input, select, textarea {
 	}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-weight: 400;
 		color: #919499;
 		font-size: 14pt;
@@ -141,7 +142,7 @@ input, select, textarea {
 	}
 
 	em, i {
-		font-style: italic;
+		font-style: italic bold;
 	}
 
 	hr {
@@ -1655,7 +1656,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #fa9891;
 		}
 
 		input[type="button"].large,
@@ -1681,7 +1682,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #a9891;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1690,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #ea7871;
 			}
 
 		input[type="button"].style2,
@@ -1732,7 +1733,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #3f434b;
+				background-color: #4f545c;
 			}
 
 			input[type="button"].style3:active,
@@ -1740,7 +1741,7 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: #1f232b;
+				background-color: #2f343c;
 			}
 
 /* List */
@@ -1895,7 +1896,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Lato', sans-serif;
 			font-weight: 400;
 		}
 
@@ -1913,7 +1914,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Lato', sans-serif;
 		}
 
 /* Box */
@@ -2621,7 +2622,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Lato', sans-serif;
 						font-weight: 900;
 					}
 
