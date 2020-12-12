@@ -1484,7 +1484,7 @@ input, select, textarea {
 		}
 
 			table.default tbody tr:nth-child(2n+2) {
-				background: #f4f4f4;
+				background: #f5f5f5;
 			}
 
 			table.default td {
@@ -1498,12 +1498,12 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #484d55;
+				background: #595e66;
 				color: #fff;
 			}
 
 			table.default tfoot {
-				background: #eee;
+				background: #ddd;
 			}
 
 /* Form */
@@ -1511,7 +1511,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 700;
-		color: #484d55;
+		color: #595e66;
 		margin: 0.25em 0 0.5em 0;
 	}
 
@@ -1527,7 +1527,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #eee;
+		background: #bbb;
 		box-shadow: inset 0px 0px 1px 0px #a0a1a7;
 		border-radius: 0.35em;
 		width: 100%;
@@ -1539,7 +1539,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #f8f8f8;
+			background: #c9c9c9;
 		}
 
 	form input[type="text"],
@@ -1634,7 +1634,7 @@ input, select, textarea {
 		-ms-transition: all .25s ease-in-out;
 		transition: all .25s ease-in-out;
 		display: inline-block;
-		background: #444;
+		background: #333;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -1673,7 +1673,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #a34540 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1682,7 +1682,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #a9891;
+				background-color: #a98910;
 			}
 
 			input[type="button"].style1:active,
@@ -1690,7 +1690,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #ea7871;
+				background-color: #ec655d;
 			}
 
 		input[type="button"].style2,
@@ -1700,7 +1700,7 @@ input, select, textarea {
 		.button.style2 {
 			background: none;
 			color: #606167;
-			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
+			box-shadow: inset 0px 0px 2px 0px #b1b2b8;
 		}
 
 			input[type="button"].style2:hover,
@@ -1708,7 +1708,7 @@ input, select, textarea {
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				box-shadow: inset 0px 0px 2px 0px #606167;
+				box-shadow: inset 0px 0px 2px 0px #56575f;
 			}
 
 			input[type="button"].style2:active,
@@ -1716,7 +1716,7 @@ input, select, textarea {
 			input[type="reset"].style2:active,
 			button.style2:active,
 			.button.style2:active {
-				box-shadow: inset 0px 0px 2px 0px #202127;
+				box-shadow: inset 0px 0px 2px 0px #2b2d35;
 			}
 
 		input[type="button"].style3,
@@ -1724,7 +1724,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/overlay.png");
+			background: #262930 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1733,7 +1733,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #4f545c;
+				background-color: #53585f;
 			}
 
 			input[type="button"].style3:active,
@@ -1741,7 +1741,7 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: #2f343c;
+				background-color: #3b414b;
 			}
 
 /* List */
@@ -1860,7 +1860,7 @@ input, select, textarea {
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url("images/overlay.png");
+				background: #222429 url("images/overlay.png");
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -2003,31 +2003,31 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #f3544c url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #e4524a url("images/overlay.png");
 				color: #fff;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: #fff;
+				color: rgb(221, 195, 195);
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background:  rgb(221, 195, 195);
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
-				color: #484d55;
+				background: rgb(221, 195, 195);
+				color: #303a49;
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #dbdada url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
@@ -2036,7 +2036,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px #fff;
+				border: solid 10px rgb(165, 163, 163);
 			}
 
 /* Page Wrapper */
@@ -2093,13 +2093,13 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
+			color: rgb(163, 154, 154);
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
 
 		#logo p {
-			color: #eee;
+			color: #ccc;
 			color: rgba(255, 255, 255, 0.5);
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
@@ -2164,7 +2164,7 @@ input, select, textarea {
 
 	.dropotron {
 		background: #222835 url("images/overlay.png");
-		background-color: rgba(44, 50, 63, 0.925);
+		background-color: rgba(44, 50, 63, 0.95);
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
 		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
@@ -2642,13 +2642,13 @@ input, select, textarea {
 						height: 38px;
 						line-height: 38px;
 						text-align: center;
-						color: rgba(255, 255, 255, 0.75);
+						color: rgba(255, 255, 255, 0.8);
 						background-color: rgba(92, 95, 103, 0.5);
 						border-radius: 0.25em;
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: rgba(92, 95, 103, 0.75);
+						background-color: rgba(92, 95, 103, 0.8);
 					}
 
 			#navPanel {
